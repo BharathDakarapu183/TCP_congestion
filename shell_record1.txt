@@ -1,0 +1,40 @@
+Script started on Monday 29 March 2021 10:57:05 AM IST
+]0;bharath@bharath-Predator-PH315-51: ~/ASSIGNMENT2[01;32mbharath@bharath-Predator-PH315-51[00m:[01;34m~/ASSIGNMENT2[00m$ bash exec
+1
+RUNNING 1th testcase
+RUNNING 2th testcase
+RUNNING 3th testcase
+RUNNING 4th testcase
+RUNNING 5th testcase
+RUNNING 6th testcase
+RUNNING 7th testcase
+RUNNING 8th testcase
+RUNNING 9th testcase
+RUNNING 10th testcase
+RUNNING 11th testcase
+RUNNING 12th testcase
+RUNNING 13th testcase
+RUNNING 14th testcase
+RUNNING 15th testcase
+RUNNING 16th testcase
+RUNNING 17th testcase
+RUNNING 18th testcase
+RUNNING 19th testcase
+RUNNING 20th testcase
+RUNNING 21th testcase
+RUNNING 22th testcase
+RUNNING 23th testcase
+RUNNING 24th testcase
+RUNNING 25th testcase
+RUNNING 26th testcase
+RUNNING 27th testcase
+RUNNING 28th testcase
+RUNNING 29th testcase
+RUNNING 30th testcase
+RUNNING 31th testcase
+RUNNING 32th testcase
+PLOTTING ALL THE GRAPHS
+]0;bharath@bharath-Predator-PH315-51: ~/ASSIGNMENT2[01;32mbharath@bharath-Predator-PH315-51[00m:[01;34m~/ASSIGNMENT2[00m$ exit
+exit
+
+Script done on Monday 29 March 2021 10:57:43 AM IST

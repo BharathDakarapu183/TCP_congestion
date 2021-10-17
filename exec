@@ -1,0 +1,73 @@
+#!/bin/bash
+echo "1"
+g++ input.cpp -o cw
+echo RUNNING 1th testcase
+./cw 1 1 0.5 0.1 0.01 1000 1.txt
+echo RUNNING 2th testcase
+./cw 1 1 0.5 0.1 0.0001 1000 2.txt
+echo RUNNING 3th testcase
+./cw 1 1 0.5 0.3 0.01 1000 3.txt
+echo RUNNING 4th testcase
+./cw 1 1 0.5 0.3 0.0001 1000 4.txt
+echo RUNNING 5th testcase
+./cw 1 1 1 0.1 0.01 1000 5.txt
+echo RUNNING 6th testcase
+./cw 1 1 1 0.1 0.0001 1000 6.txt
+echo RUNNING 7th testcase
+./cw 1 1 1 0.3 0.01 1000 7.txt
+echo RUNNING 8th testcase
+./cw 1 1 1 0.3 0.0001 1000 8.txt
+echo RUNNING 9th testcase
+./cw 1 1.5 0.5 0.1 0.01 1000 9.txt
+echo RUNNING 10th testcase
+./cw 1 1.5 0.5 0.1 0.0001 1000 10.txt
+echo RUNNING 11th testcase
+./cw 1 1.5 0.5 0.3 0.01 1000 11.txt
+echo RUNNING 12th testcase
+./cw 1 1.5 0.5 0.3 0.0001 1000 12.txt
+echo RUNNING 13th testcase
+./cw 1 1.5 1 0.1 0.01 1000 13.txt
+echo RUNNING 14th testcase
+./cw 1 1.5 1 0.1 0.0001 1000 14.txt
+echo RUNNING 15th testcase
+./cw 1 1.5 1 0.3 0.01 1000 15.txt
+echo RUNNING 16th testcase
+./cw 1 1.5 1 0.3 0.0001 1000 16.txt
+echo RUNNING 17th testcase
+./cw 4 1 0.5 0.1 0.01 1000 17.txt
+echo RUNNING 18th testcase
+./cw 4 1 0.5 0.1 0.0001 1000 18.txt
+echo RUNNING 19th testcase
+./cw 4 1 0.5 0.3 0.01 1000 19.txt
+echo RUNNING 20th testcase
+./cw 4 1 0.5 0.3 0.0001 1000 20.txt
+echo RUNNING 21th testcase
+./cw 4 1 1 0.1 0.01 1000 21.txt
+echo RUNNING 22th testcase
+./cw 4 1 1 0.1 0.0001 1000 22.txt
+echo RUNNING 23th testcase
+./cw 4 1 1 0.3 0.01 1000 23.txt
+echo RUNNING 24th testcase
+./cw 4 1 1 0.3 0.0001 1000 24.txt
+echo RUNNING 25th testcase
+./cw 4 1.5 0.5 0.1 0.01 1000 25.txt
+echo RUNNING 26th testcase
+./cw 4 1.5 0.5 0.1 0.0001 1000 26.txt
+echo RUNNING 27th testcase
+./cw 4 1.5 0.5 0.3 0.01 1000 27.txt
+echo RUNNING 28th testcase
+./cw 4 1.5 0.5 0.3 0.0001 1000 28.txt
+echo RUNNING 29th testcase
+./cw 4 1.5 1 0.1 0.01 1000 29.txt
+echo RUNNING 30th testcase
+./cw 4 1.5 1 0.1 0.0001 1000 30.txt
+echo RUNNING 31th testcase
+./cw 4 1.5 1 0.3 0.01 1000 31.txt
+echo RUNNING 32th testcase
+./cw 4 1.5 1 0.3 0.0001 1000 32.txt
+
+echo PLOTTING ALL THE GRAPHS
+for i in {1..32}
+do
+	python3 graph1.py $i
+done
